@@ -4,10 +4,15 @@
 // hint.
 
 // I AM NOT DONE
+struct Echo(String);
+struct ChangeColor(i32, i32, i32);
 
 #[derive(Debug)]
 enum Message {
     // TODO: define the different variants used below
+    Move,
+    Echo,
+    Quit
 }
 
 impl Message {
